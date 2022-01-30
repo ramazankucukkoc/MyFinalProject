@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Abstrsct
+namespace Core.DataAccess
 {
     //where T:class,IEntity,new() Burada Where koşuluyla kısıltlama veriyoruz class burada refarans tipli
     //Oldugunu belirtiyor IEntity burada yazmamızın sebebi(Örnegin DivideByZeroException sınıflarını) kullanmamızı engelliyor

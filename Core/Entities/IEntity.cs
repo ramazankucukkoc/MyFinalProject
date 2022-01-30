@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Abstract
+namespace Core.Entities
 {
     //IEntity implement eden class bir veriatabanı tablosudur
-   public interface IEntity
+    //IEntity sen bir veritabanı tablosusu musun
+    public interface IEntity
     {
 
     }

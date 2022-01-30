@@ -5,18 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Concrete
+namespace Entities.Concrete.DTOs
 {
-    //internal erişimi demek sadece Entities erişecek demektir
-   public class Product: IEntity
+  public  class ProductDetailDto:IDto
     {
         public int ProductID { get; set; }
-        public int CategoryID { get; set; }
 
         public string ProductName { get; set; }
 
-        public decimal UnitPrice { get; set; }
+        public string  CategoryName { get; set; }
 
         public short UnitsInStock { get; set; }
+
     }
 }
